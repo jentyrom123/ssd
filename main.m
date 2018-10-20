@@ -13,7 +13,7 @@ for i=1:10
     test = (indices == 1); training = ~test;
     [weight1,weight2]=MLP(totaldata(training,1:13),totaldata(training,14)); %Train 
     
-    X=totaldata(test,1:13);
+    y = 5;
     X(:,14)=1;
     a2 = g(X * weight1');
     a2(:,6)=1;
