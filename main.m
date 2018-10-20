@@ -34,3 +34,7 @@ function sigmoid = g(x)
 
     sigmoid = 1./(1+exp(-x));
 end
+
+%%Trial boi
+%%sdfdsfds
+%%sdfsdfd
